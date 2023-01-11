@@ -1,16 +1,16 @@
 six
 numpy<1.24
-gluonnlp 
+gluonnlp==0.10.0
 Cpython
-#mxnet==1.8.0.post0
-mxnet
-pytorch-crf
-#pytorch-crf @ git+https://github.com/kmkurn/pytorch-crf@e843718540512eb04d9b756fca04a0915affe175
+mxnet==1.8.0.post0
+pytorch-crf @ git+https://github.com/kmkurn/pytorch-crf@e843718540512eb04d9b756fca04a0915affe175
 konlpy
-sentencepiece
-
-torch
-transformers
+sentencepiece==0.1.95
+torch==1.8.1
+transformers==2.9.0
+#transformers==2.11.0
+#transformers==4.4.2
+#transformers==4.5.1
 
 
 
